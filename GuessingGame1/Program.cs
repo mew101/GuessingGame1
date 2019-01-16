@@ -14,6 +14,10 @@ namespace GuessingGame1
             {
                 Console.WriteLine("You Win!");
             }
+            else if (userGuess.Equals("0"))
+            {
+                Console.WriteLine("Try again!");
+            }
             else
             {
                 Console.WriteLine("You lost.");
